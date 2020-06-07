@@ -1,0 +1,28 @@
+.shop-category-container{
+    font-family: "poppins_light";
+    border-right: 1px solid #e0e0e0;
+    overflow:auto;
+  overflow-y: hidden;
+}
+
+.category-list{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.shop-reviews{
+  padding: 20px;
+
+}
+
+.show-button {
+  background-color: transparent;
+    border: none;
+    color: blue;
+    cursor: pointer;
+    margin-left: 10px;
+    text-decoration: "underline"!important;
+    outline: none;
+}

@@ -1,0 +1,76 @@
+.all-product-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.all-product-left-container {
+  width: 25%;
+  padding: 40px;
+}
+
+.all-product-right-container {
+  width: 75%;
+}
+
+.on-sale-button {
+  background-color: transparent;
+  border: none;
+  font-size: 17px;
+  font-family: "poppins_light";
+  cursor: pointer;
+  outline: none;
+}
+
+.on-sale-not-checked {
+  width: 15px;
+  height: 16px;
+  border: 1.5px solid #bdbdbd;
+  margin-top: 3px;
+  border-radius: 3px;
+  margin-right: 10px;
+}
+
+.on-sale-right-container {
+  width: 24%;
+  font-family: "poppins_light";
+  border: 1px solid #bdbdbd;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+  margin-top: 50px;
+}
+.on-sale-right-container button {
+  background-color: transparent;
+  border: none;
+  border-left: 1px solid #bdbdbd;
+  border-top-right-radius: 2px;
+  padding: 15px;
+  cursor: pointer;
+  outline: none;
+}
+
+.all-product-bottom-container {
+  border-top: 3px solid #e0e0e0;
+    margin-top: 30px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.recently-viewed-header {
+  display: flex;
+  flex-direction: row;
+  font-family: "poppins_regular";
+  font-size: 30px;
+}
+
+.recently-viewed-header button {
+  background-color: transparent;
+  margin-left: 20px;
+  font-family: "poppins_light";
+  outline: none;
+  border: none;
+  margin-top: 10px;
+  font-size: 17px;
+  text-decoration: underline;
+  cursor: pointer;
+}

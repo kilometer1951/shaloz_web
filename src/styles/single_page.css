@@ -1,0 +1,136 @@
+.single-page-container {
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.single-page-container > div:nth-of-type(1) {
+  width: 70%;
+}
+
+.single-page-container > div:nth-of-type(2) {
+  width: 30%;
+}
+
+.single-page-inner-container {
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+}
+
+.single-page-inner-container > div:nth-of-type(1) {
+  width: 12%;
+}
+
+.single-page-inner-container > div:nth-of-type(2) {
+  width: 80%;
+}
+
+.single-page-inner-container > div:nth-of-type(2) {
+  padding-left: 10px;
+}
+
+.single-page-inner-container > div:nth-of-type(2) > img {
+  width: 100%;
+  max-height: 720px;
+  object-fit: cover;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.single-page-inner-container > div > div {
+  margin-bottom: 10px;
+}
+.single-page-inner-container > div > div > img {
+  width: 120px;
+  height: 120px;
+  object-fit: cover;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.single-page-inner-container > div > div > img:hover {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+}
+
+.right-top {
+  display: flex;
+  flex-direction: row;
+}
+
+.right-top > div:nth-of-type(1) {
+  border-right: 1px solid #e0e0e0;
+  padding-right: 10px;
+  font-family: "poppins_regular";
+}
+
+.right-top > div:nth-of-type(2) {
+  padding-left: 10px;
+  font-family: "poppins_regular";
+}
+
+.right-top > div:nth-of-type(1) > p:hover {
+  border-bottom: 1px solid #000;
+  cursor: pointer;
+}
+
+.add-to-cart-button:hover {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  border-radius: 40px;
+}
+
+.you-mayalsolike-container {
+  overflow: hidden;
+}
+
+.you-mayalsolike-inner {
+  display: flex;
+  overflow: auto;
+  overflow-y: hidden;
+  overflow-x: scroll;
+  margin-bottom: -50px; /* maximum width of scrollbar */
+  padding-bottom: 50px; /* maximum width of scrollbar */
+}
+
+.option-modal {
+  position: absolute;
+  background-color: #fff;
+  top: 0;
+  z-index: 1;
+  margin-top: 9%;
+  width: 29%;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  border-radius: 5px;
+}
+
+.option-modal-header {
+  display: flex;
+  box-shadow: 0 0 2px rgba(0, 0, 0, 0.3);
+  padding: 10px;
+  justify-content: space-between;
+  background-color: #fff;
+ 
+}
+
+.option-modal-header > button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  outline: none;
+}
+
+.option-modal-body {
+  padding: 10px;
+  height: 500px;
+  overflow: scroll;
+}
+
+.network-error-container{
+  position: absolute;
+  top: 0;
+  width: 15%;
+  left: 40%;
+
+}

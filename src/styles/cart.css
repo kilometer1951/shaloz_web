@@ -1,0 +1,186 @@
+.cart-container {
+  width: 80%;
+  margin: auto;
+  margin-bottom: 30px;
+}
+
+.cart-container-header {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 30px;
+  width: 80%;
+  margin: auto;
+}
+
+.cart-container-header > div > p {
+  font-family: "poppins_semibold";
+  font-size: 30px;
+}
+
+.cart-container-header > div > button {
+  font-family: "poppins_regular";
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  background-color: #fff;
+  border: 1px solid #e0e0e0;
+  cursor: pointer;
+  outline: none;
+  margin-top: 5px;
+}
+
+.cart-data-container {
+  padding: 20px;
+  background-color: #fff;
+  border: 1px solid #e0e0e0;
+  border-radius: 5px;
+  margin-top: 10px;
+
+}
+
+.cart-data {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.cart-data-left {
+  width: 67%;
+}
+
+.cart-data-right {
+  width: 30%;
+}
+
+.cart-data-left-header-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.payment-container {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+  height: 500px;
+  border-radius: 20px;
+  padding: 20px;
+}
+
+.cart-header-button {
+  background-color: transparent;
+  border: none;
+  font-family: "poppins_regular";
+  color: #757575;
+  text-decoration: underline;
+  outline: none;
+  cursor: pointer;
+}
+
+.discount-progress-section {
+  margin-top: 10px;
+}
+
+.cart-product-container {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border-bottom: 1px solid #e0e0e0;
+  padding-bottom: 30px;
+}
+
+.cart-product-container-left {
+  width: 50%;
+}
+
+.cart-product-container-middle {
+  width: 20%;
+}
+
+.cart-product-container-right {
+  width: 10%;
+}
+
+.checkout-button {
+  width: 100%;
+  padding: 10px;
+  font-size: 20px;
+  font-family: "poppins_regular";
+  background-color: #000;
+  color: #fff;
+  border: none;
+  border-radius: 50px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+  margin-top: 10px;
+  outline: none;
+}
+
+.pageClassName {
+   list-style-type: none;
+}
+
+.pageLinkClassName{
+ background-color: red;
+}
+
+
+.update-item-button {
+  margin-right: 10px;
+  background-color: #000;
+  border:none;
+  color:#fff;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-radius: 5px;
+  cursor: pointer;
+  outline: none;
+}
+
+.cancel-update-item-button {
+  margin-right: 10px;
+  background-color: #aa00ff;
+  border:none;
+  color:#fff;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-radius: 5px;
+  cursor: pointer;
+  outline: none;
+}
+
+
+.option-modal-cart {
+  background-color: #fff;
+  width: 430px;
+}
+
+.option-modal-cart::backdrop {
+  background: rgba(255,0,0,.25);
+}
+
+.option-modal-header-cart {
+  display: flex;
+  box-shadow: 0 0 2px rgba(0, 0, 0, 0.3);
+  padding: 10px;
+  justify-content: space-between;
+  background-color: #fff;
+ 
+}
+
+.option-modal-header-cart > button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  outline: none;
+}
+
+.option-modal-body-cart {
+  padding: 10px;
+  height: 500px;
+  overflow: scroll;
+}

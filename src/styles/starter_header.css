@@ -1,0 +1,41 @@
+.each-fade {
+  display: flex;
+}
+
+.each-fade .image-container {
+  width: 75%;
+}
+
+.each-fade > .image-container > img {
+  width: 100%;
+  height: 450px;
+  border-top-right-radius: 3px;
+  border-bottom-right-radius: 3px;
+}
+
+.each-fade > .slide-side > h2 {
+  font-family: "poppins_regular";
+  margin-top: 40%;
+}
+.each-fade > .slide-side > p {
+  font-family: "poppins_extra_light";
+  text-align: center;
+  margin-top: 4%;
+  font-size: 20px;
+}
+
+
+.each-fade > .slide-side > button {
+   border: none;
+   background-color: transparent;
+   font-family: "poppins_regular";
+   font-size: 17px;
+   margin-top: 10px;
+   outline: none;
+   cursor: pointer;
+}
+
+
+.textFonts  {
+    font-family: "poppins_extra_light";
+}
